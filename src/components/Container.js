@@ -16,7 +16,6 @@ const initialState = {
 
 const Container = () => {
   const [name, setName] = useState('');
-  const show = toast();
   const [state, dispatch]=useReducer(reducer, initialState);
 
   const handleSubmit = (e) => {
