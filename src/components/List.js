@@ -1,4 +1,4 @@
-import {useState,useEffect} from 'react'
+import { useState } from 'react';
 import { FaEdit, FaTrash } from 'react-icons/fa';
 import Wrapper from '../assets/Wrappers/list';
 import {toast} from 'react-toastify'

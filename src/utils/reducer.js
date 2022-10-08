@@ -1,6 +1,3 @@
-import { toast } from "react-toastify";
-
-
 export const reducer = (state, action) => {
   if (action.type === 'ADD_ITEMS') {
     return {
